@@ -26,10 +26,10 @@ As operações implementadas devem ser as clássicas de CRUD - Create, Read, Upd
 
 Seguiremos o padrão REST e, portanto, as rotas implementadas para isso devem ser as seguintes:
 
-1. **Create: POST /memes **<br>
-2. **Read: GET /memes (para ler todos) e GET /memes/42 (para ler o de ID = 42)  **<br>
-3. **Update: PUT /memes/42 (para atualizar o de ID = 42)  **<br>
-4. **Delete: DELETE /memes/42 (para remover o de ID = 42)  **<br>
+<b>Create: POST /memes </b><br>
+<b>Read: GET /memes (para ler todos) e GET /memes/42 (para ler o de ID = 42)  </b><br>
+<b>Update: PUT /memes/42 (para atualizar o de ID = 42)  </b><br>
+<b>Delete: DELETE /memes/42 (para remover o de ID = 42)  </b><br>
 
 
 Para as operações de Create e de Update, o corpo da requisição deve seguir a mesma estrutura do modelo criado.
