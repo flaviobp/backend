@@ -16,8 +16,8 @@ Nela, um meme será representado com as seguintes características:
 
 1. **id - único, autoincrementado a partir de 1** <br>
 2. **name - string** <br>
-3. **keywords - lista de strings <br>
-4. **midia - url apontando para a imagem¹ <br>
+3. **keywords - lista de strings** <br>
+4. **midia - url apontando para a imagem¹** <br>
 
 
 ¹ a imagem não será hospedada no backend, daremos suporte apenas a um link para algum lugar externo, ex: Google Imagens
@@ -26,10 +26,12 @@ As operações implementadas devem ser as clássicas de CRUD - Create, Read, Upd
 
 Seguiremos o padrão REST e, portanto, as rotas implementadas para isso devem ser as seguintes:
 
-Create: POST /memes
-Read: GET /memes (para ler todos) e GET /memes/42 (para ler o de ID = 42)
-Update: PUT /memes/42 (para atualizar o de ID = 42)
-Delete: DELETE /memes/42 (para remover o de ID = 42)
+Create: POST /memes <br>
+Read: GET /memes (para ler todos) e GET /memes/42 (para ler o de ID = 42)  <br>
+Update: PUT /memes/42 (para atualizar o de ID = 42)  <br>
+Delete: DELETE /memes/42 (para remover o de ID = 42)  <br>
+
+
 Para as operações de Create e de Update, o corpo da requisição deve seguir a mesma estrutura do modelo criado.
 
 
